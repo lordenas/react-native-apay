@@ -87,7 +87,7 @@ RCT_EXPORT_METHOD(complete:(NSNumber *_Nonnull)status promiseWithResolver:(RCTPr
     }
     
     if (@available(iOS 11.0, *)) {
-        [supportedNetworksMapping setObject:PKPaymentNetworkCarteBancaires forKey:@"cartebancaires
+        [supportedNetworksMapping setObject:PKPaymentNetworkCarteBancaires forKey:@"cartebancaires"];
         [supportedNetworksMapping setObject:PKPaymentNetworkMir forKey:@"mir"];
     }
     
